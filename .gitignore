@@ -1,0 +1,5 @@
+__pycache__/
+dados/
+dados_pequeno/
+resultados/*.json
+resultados/*.prof

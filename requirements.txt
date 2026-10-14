@@ -1,0 +1,1 @@
+# Nenhuma dependência externa: só a biblioteca padrão do Python 3.11+
