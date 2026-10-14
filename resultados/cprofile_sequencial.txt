@@ -1,0 +1,24 @@
+Wed Oct 14 19:55:59 2026    resultados/sequencial.prof
+
+         108300986 function calls (108300461 primitive calls) in 66.341 seconds
+
+   Ordered by: internal time
+   List reduced from 458 to 14 due to restriction <14>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+  3596471   26.251    0.000   47.039    0.000 _strptime.py:516(_strptime)
+       60    8.042    0.134   66.265    1.104 nucleo.py:35(analisar_arquivo)
+  3596471    5.733    0.000   52.773    0.000 _strptime.py:786(_strptime_datetime)
+  7196532    4.370    0.000    4.370    0.000 {method 'match' of 're.Pattern' objects}
+  3596473    2.501    0.000    2.501    0.000 {built-in method _locale.setlocale}
+  3596471    2.319    0.000   55.095    0.000 {built-in method strptime}
+  3596471    1.869    0.000    1.869    0.000 {method 'groupdict' of 're.Match' objects}
+  3596473    1.840    0.000    2.944    0.000 locale.py:381(normalize)
+ 10789585    1.578    0.000    1.578    0.000 {method 'get' of 'dict' objects}
+  3596473    1.474    0.000    7.994    0.000 locale.py:576(getlocale)
+10791688/10791577    1.152    0.000    1.152    0.000 {built-in method builtins.len}
+  3596473    1.075    0.000    4.019    0.000 locale.py:464(_parse_localename)
+  7193041    1.040    0.000    1.040    0.000 {method 'lower' of 'str' objects}
+  7192943    0.981    0.000    0.981    0.000 {method 'toordinal' of 'datetime.date' objects}
+
+

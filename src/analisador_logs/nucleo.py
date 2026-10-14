@@ -56,7 +56,9 @@ def tarefa(item):
     n, caminho = item
     resultado = analisar_arquivo(caminho)
     if _mostrar_pid:
-        print(f"Tarefa {n} finalizada com PID: {os.getpid()}")
+        # flush=True: sem ele, com a saída redirecionada, o texto fica no buffer do worker
+        # e se perde quando o Pool encerra os processos (terminate() no fim do with).
+        print(f"Tarefa {n} finalizada com PID: {os.getpid()}", flush=True)
     return resultado
 
 
