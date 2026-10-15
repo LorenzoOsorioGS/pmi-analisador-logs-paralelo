@@ -1,5 +1,6 @@
 __pycache__/
 dados/
 dados_pequeno/
+dados_demo/
 resultados/*.json
 resultados/*.prof

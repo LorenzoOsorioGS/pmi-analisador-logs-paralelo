@@ -22,6 +22,14 @@ Histórico: tag `v1-sequencial` (antes) e tag `v2-paralelo` (depois).
 
 ## Como rodar (PowerShell, na raiz do projeto)
 
+Demonstração em um comando só (sequencial x paralelo x threads, igual ao exemplo da aula):
+
+```powershell
+python main.py
+```
+
+Comandos separados:
+
 ```powershell
 python scripts/gerar_dados.py                 # 60 arquivos x 60.000 linhas em dados/
 $env:PYTHONPATH = "src"
